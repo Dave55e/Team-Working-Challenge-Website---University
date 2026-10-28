@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Pitchside | Pitchside</title>
+  <link rel="stylesheet" href="css style 1.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="index.html" class="logo">Pitch<span>side</span></a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+      <label for="menu-toggle" class="hamburger">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="fixtures.html">Fixtures</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="leaguetable.html">Table</a></li>
+        <li><a href="teams.html">Teams</a></li>
+        <li><a href="Current News.html">News</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">Welcome to Pitchside</h1>
+    <p class="page-subtitle">South Wales Football News</p>
+    <div class="news-grid">
+      <section class="card">
+        <div class="box">
+          <h2>Current football news</h2>
+          <img src="data:image/png;base64,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" alt="Current football news">
+        </div>
+        <p>Click the link to see the current news</p>
+        <a class="link" href="Current News.html">Current News</a>
+        <p class="posted">Posted on 21 October 2026</p>
+      </section>
+
+      <section class="card">
+        <div class="box">
+          <h2>Previous football news</h2>
+          <img src="./Pitchside/blue.png" alt="Previous football news">
+        </div>
+        <p>Click the link to see the previous news</p>
+        <a class="link" href="previousnews.html">Previous News</a>
+        <p class="posted">Posted on 21 October 2026</p>
+      </section>
+    </div>
+
+    <section class="card wide">
+      <h2>League Tables</h2>
+      <a class="link" href="leaguetable.html">League Table</a>
+    </section>
+
+    <div class="news-grid">
+      <section class="card">
+        <h2>Fixtures</h2>
+        <p>See who is playing next across South Wales.</p>
+        <a class="link" href="fixtures.html">View Fixtures</a>
+      </section>
+
+      <section class="card">
+        <h2>Results</h2>
+        <p>Catch up on the latest scores.</p>
+        <a class="link" href="results.html">View Results</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy;2026 South Wales Football News</p>
+  </footer>
+
+</body>
+</html>
